@@ -1,0 +1,132 @@
+.chip-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 700px;
+    margin: auto;
+    padding: 20px;
+  }
+  
+  .chips {
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 10px;
+  }
+  
+  .chip {
+    margin-right: 8px;
+    margin-bottom: 8px;
+    background-color: #7d897d;
+    color: white;
+    padding: 0px 8px; /* Adjusted padding for less height */
+    border-radius: 26px;
+    display: flex;
+    align-items: center;
+    font-size: 14px;
+    min-width: 50px; /* Adjusted min-width for wider chips */
+  }
+  
+  .chip img {
+    border-radius: 50%;
+    margin-right: 5px;
+    margin-left: -8px;
+    width: 44px; /* Adjust the width as needed */
+  height: 41px;
+  }
+
+  
+  
+  .chip span {
+    cursor: pointer;
+    margin-left: 4px;
+    font-weight: bold;
+  }
+  
+  .chip-email {
+    color: #8c8c8c;
+    font-size: 12px;
+    margin-left: 8px;
+  }
+  
+  .input-field {
+    width: calc(100% - 16px);
+    padding: 5px 0;
+    border: none;
+    border-bottom: 2px solid #6b6d75;
+    margin-bottom: 15px;
+    outline: none;
+    font-size: 14px;
+  }
+  
+  .user-list-container {
+    width: 100%;
+    max-height: 150px;
+    overflow-y: auto;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    padding: 5px;
+  }
+  
+  .user-list {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .user-list li {
+    padding: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 4px;
+  }
+  
+  .user-list li .user-info {
+    display: flex;
+    align-items: center;
+  }
+  
+  .user-photo {
+    margin-right: 10px;
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+  }
+  
+  .user-name {
+    font-weight: bold;
+  }
+  
+  .user-email {
+    color: #8c8c8c;
+    font-size: 12px;
+  }
+  
+  .user-list li:hover {
+    background-color: #e0e0e0;
+  }
+  
+  .selected-chip {
+    background-color: #4caf50;
+    color: white;
+    padding: 2px 8px;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    font-size: 12px;
+    margin-right: 4px;
+  }
+  
+  .selected-chip img {
+    border-radius: 50%;
+    margin-right: 2px;
+  }
+  
+  .selected-chip span {
+    cursor: pointer;
+    margin-left: 2px;
+    font-weight: bold;
+  }
+  
